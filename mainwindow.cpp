@@ -41,8 +41,8 @@ MainWindow::MainWindow(QWidget *parent)
   ui->setupUi(this);
 
   /* set path of folders and "main.mr" */
-  assets_folder_path = "C:/Program Files/Engine Sim/assets/";
-  // assets_folder_path = "../assets/";
+  // assets_folder_path = "C:/Program Files/Engine Sim/assets/";
+  assets_folder_path = "../assets/";
   engines_folder_path = assets_folder_path + "engines/";
   themes_folder_path = assets_folder_path + "themes/";
   main_file_path = assets_folder_path + "main.mr";
