@@ -110,6 +110,10 @@ You can put forward the problems encountered and the functions you wish to add o
 
 ## Change Log
 
+**[2022-10-24] Version: 2.0.1:**
+
+1. Fix the fault of the "Open file" button in the dialog box.
+
 **[2022-10-24] Version: 2.0.0:**
 
 1. You can now switch themes;
