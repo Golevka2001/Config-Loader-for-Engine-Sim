@@ -62,5 +62,5 @@ void SelectingDialog::on_vehicle_selector_activated(int index)
 /* open the file */
 void SelectingDialog::on_open_button_clicked()
 {
-  QDesktopServices::openUrl(QUrl(file_path));
+  QDesktopServices::openUrl(QUrl(QDir::fromNativeSeparators(file_path)));
 }
