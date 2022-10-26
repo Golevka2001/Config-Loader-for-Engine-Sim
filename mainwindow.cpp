@@ -5,13 +5,13 @@
  * @File: mainwindow.cpp
  * @Brief: Mainwindow.
  * @Author: Gol3vka<gol3vka@163.com>
- * @Version: 2.0.0
+ * @Version: 2.0.1
  * @What's new:
  *   1) Modifying theme is available.\
  *   2) Add a dialog for engine files where the program can not decide\
  *      which is the engine node.
  * @Created date: 2022/10/21
- * @Last modified date: 2022/10/25
+ * @Last modified date: 2022/10/26
  *****************************************************************************/
 
 // TODO: read old "main.mr" as default config,\
