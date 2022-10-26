@@ -17,7 +17,6 @@
 #include "selectingdialog.h"
 
 #include <QDesktopServices>
-#include <QDir>
 #include <QUrl>
 
 #include "ui_selectingdialog.h"
@@ -62,5 +61,5 @@ void SelectingDialog::on_vehicle_selector_activated(int index)
 /* open the file */
 void SelectingDialog::on_open_button_clicked()
 {
-  QDesktopServices::openUrl(QUrl(QDir::fromNativeSeparators(file_path)));
+  QDesktopServices::openUrl(QUrl::fromLocalFile(file_path));
 }
