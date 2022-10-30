@@ -1,2 +1,19 @@
+# VS config
+.vs/
+
+# VS project files
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# QT project files
+*.pro
+*.pro.user
+*.pri
+
+# build output
+x64/
+
+# release
 Release/
-*.user
