@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>ConfigLoaderClass</class>
+ <widget class="QMainWindow" name="ConfigLoaderClass">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>ConfigLoader</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTreeView" name="engine_files_tree_view">
@@ -21,19 +21,6 @@
       <y>50</y>
       <width>331</width>
       <height>231</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="engine_file_name_browser">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>340</y>
-      <width>331</width>
-      <height>31</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -64,6 +51,19 @@
     </property>
     <property name="text">
      <string>Quit</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="engine_file_name_browser">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>340</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
     </property>
    </widget>
    <widget class="QLabel" name="engine_lable">

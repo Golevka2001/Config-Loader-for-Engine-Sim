@@ -10,17 +10,17 @@
  *   2) Add a dialog for engine files where the program can not decide\
  *      which is the engine node.
  * @Created date: 2022/10/21
- * @Last modified date: 2022/10/26
+ * @Last modified date: 2022/10/29
  *****************************************************************************/
 
-#include <QApplication>
+#include <QtWidgets/QApplication>
 
-#include "mainwindow.h"
+#include "../Includes/config_loader.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
   QApplication a(argc, argv);
-  MainWindow w;
+  ConfigLoader w;
   w.show();
   return a.exec();
 }
