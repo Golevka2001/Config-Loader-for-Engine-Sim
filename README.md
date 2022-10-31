@@ -100,15 +100,21 @@ There will be more updates to improve functions or fix bugs.You can click the �
 
 ## What's to Come
 
-1. Read old ```main.mr``` file on every run, and set as default values, so users don't need to change every options;
-2. Change between imperial and metric units；
-3. Preview of themes；
-4. More beautiful；
-5. ...
+- [x] ~~Read old ```main.mr``` file on every run, and set as default values, so users don't need to change every options;~~
+- [ ] Change between imperial and metric units；
+- [ ] Preview of themes；
+- [ ] More beautiful；
+- [ ] ...
 
 You can put forward the problems encountered and the functions you wish to add on the "Issues" page.
 
 ## Change Log
+
+**[2022-10-31] Version: 2.1.0:**
+
+1. Code refactoring;
+2. Read old file as default config;
+3. Fix errors caused by relative paths.
 
 **[2022-10-24] Version: 2.0.1:**
 
