@@ -4,13 +4,11 @@
  *   then "main.mr" will be automatically generated.
  * @File: main.cpp
  * @Author: Gol3vka<gol3vka@163.com>
- * @Version: 2.0.1
+ * @Version: 2.1.0
  * @What's new:
- *   1) Modifying theme is available.\
- *   2) Add a dialog for engine files where the program can not decide\
- *      which is the engine node.
+ *   1) Read old config file as default config.
  * @Created date: 2022/10/21
- * @Last modified date: 2022/10/29
+ * @Last modified date: 2022/10/31
  *****************************************************************************/
 
 #include <QtWidgets/QApplication>

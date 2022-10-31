@@ -2,9 +2,9 @@
  * @File: config_loader.cpp
  * @Brief: Main window of the tool.
  * @Author: Gol3vka<gol3vka@163.com>
- * @Version: 2.0.1
+ * @Version: 2.1.0
  * @Created date: 2022/10/21
- * @Last modified date: 2022/10/29
+ * @Last modified date: 2022/10/31
  *****************************************************************************/
 
 #include "../Includes/config_loader.h"
@@ -20,9 +20,11 @@ ConfigLoader::ConfigLoader(QWidget *parent) : QMainWindow(parent)
 {
   ui.setupUi(this);
 
-  /* set path of folders */
-  assets_folder_path_ = "C:/Program Files/Engine Sim/assets/";
-  // assets_folder_path_ = "../assets/";
+  /* set absolute path of folders */
+  // assets_folder_path_ = "C:/Program Files/Engine Sim/assets/";
+  QDir temp_dir("../assets/");
+  assets_folder_path_ = temp_dir.absolutePath() + '/';
+  config_.SetRootPath(assets_folder_path_);
   engines_folder_path_ = assets_folder_path_ + "engines/";
   themes_folder_path_ = assets_folder_path_ + "themes/";
 
@@ -48,8 +50,6 @@ ConfigLoader::ConfigLoader(QWidget *parent) : QMainWindow(parent)
     exit(EXIT_FAILURE);
   }
 
-  config_.SetRootPath(assets_folder_path_);
-
   /* read "main.mr" as default config */
   config_.Read();
 
@@ -74,32 +74,6 @@ ConfigLoader::ConfigLoader(QWidget *parent) : QMainWindow(parent)
 }
 
 ConfigLoader::~ConfigLoader() { delete file_model_; }
-
-/* read "main.mr" file
-void ConfigLoader::ReadMainFile()
-{
-  QByteArray line;
-  line.clear();
-  QString theme_file_name_;
-  QRegularExpression theme_include("^import[ |\s]*\"themes/");
-  if (!main_file_.open(QIODevice::ReadOnly | QIODevice::Text))
-    QMessageBox::critical(NULL, "ERROR", "File \"main.mr\" is not accessible.",
-                          QMessageBox::Ok);
-  else
-  {
-    while (!main_file_.atEnd())
-    {
-      line = main_file_.readLine();
-      if (theme_include.match(line).hasMatch())
-      {
-        theme_file_path_ = assets_folder_path_ + line.split('\"')[1];
-        QFile theme_file(theme_file_path_);
-      }
-    }
-    main_file_.close();
-  }
-  }
-*/
 
 /* display engine files in tree view */
 void ConfigLoader::DisplayTreeView()

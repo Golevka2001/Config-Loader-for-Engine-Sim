@@ -2,15 +2,14 @@
  * @File: config.cpp
  * @Brief: Config class.
  * @Author: Gol3vka<gol3vka@163.com>
- * @Version: 2.0.1
+ * @Version: 2.1.0
  * @Created date: 2022/10/21
- * @Last modified date: 2022/10/29
+ * @Last modified date: 2022/10/31
  *****************************************************************************/
 
 #include "../Includes/config.h"
 
 #include <QByteArray>
-#include <QDebug>  /////////////////
 #include <QIODevice>
 #include <QMessageBox>
 #include <QRegularExpression>
