@@ -2,6 +2,16 @@
 
 [English](README.md) | 简体中文
 
+👋🙂 在最新的版本中，[Engine-Simulator](https://github.com/Engine-Simulator/engine-sim-community-edition) 已经提供了一个便捷美观的**内置菜单**用于切换引擎文件，所以这个项目就不再更新了。
+
+## 概述
+
+![main_window_1](./README.assets/main_window_1.png)
+
+这是一个用于 [Engine Sim](https://github.com/ange-yaghi/engine-sim) 的配置加载程序，具有简明的交互界面，可以方便地切换模拟器中使用的引擎、主题和公英制单位（切换单位功能将在后续更新）。
+
+如果这个项目有帮助到您，可以点击右上角的 “:star:**Star**” 按钮。感谢您的支持。
+
 ## 目录
 
 - [Config Loader for Engine Sim :car:](#config-loader-for-engine-sim-car)
@@ -17,14 +27,6 @@
   - [未来更新内容](#未来更新内容)
   - [更新日志](#更新日志)
   - [使用许可](#使用许可)
-
-## 概述
-
-![main_window_1](./README.assets/main_window_1.png)
-
-这是一个用于 [Engine Sim](https://github.com/ange-yaghi/engine-sim) 的配置加载程序，具有简明的交互界面，可以方便地切换模拟器中使用的引擎、主题和公英制单位（切换单位功能将在后续更新）。
-
-如果这个项目有帮助到您，可以点击右上角的 “:star:**Star**” 按钮。感谢您的支持。
 
 ## 背景
 
