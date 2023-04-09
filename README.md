@@ -2,6 +2,16 @@
 
 English | [简体中文](README.zh-CN.md)
 
+👋🙂 In the latest version, the [Engine-Simulator](https://github.com/Engine-Simulator/engine-sim-community-edition) has provided a **built-in** console for switching engines, which is really convenient and beautiful. So this project will not be updated again.
+
+## Overview
+
+![main_window_1](./README.assets/main_window_1.png)
+
+This is a tool for [Engine Sim](https://github.com/ange-yaghi/engine-sim), with concise interactive interface. You can use it to switch engines, themes used in the simulator, and change between imperia and metric units(units changing will be available soon).
+
+Please hit the “:star:**Star**” button in the upper right hand corner, if this project helps you. I really appreciate it.
+
 ## Table of Contents
 
 - [Config Loader for Engine Sim :car:](#config-loader-for-engine-sim-car)
@@ -17,14 +27,6 @@ English | [简体中文](README.zh-CN.md)
   - [What's to Come](#whats-to-come)
   - [Change Log](#change-log)
   - [License](#license)
-
-## Overview
-
-![main_window_1](./README.assets/main_window_1.png)
-
-This is a tool for [Engine Sim](https://github.com/ange-yaghi/engine-sim), with concise interactive interface. You can use it to switch engines, themes used in the simulator, and change between imperia and metric units(units changing will be available soon).
-
-Please hit the “:star:**Star**” button in the upper right hand corner, if this project helps you. I really appreciate it.
 
 ## Background
 
